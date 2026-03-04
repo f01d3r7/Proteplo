@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара — ProTeplo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__top">
+            <div class="header__contacts">
+                <a class="header__contact" href="#">
+                    <span class="header__icon" aria-hidden="true">
+                        <img src="../img/header img/city.png" alt="">
+                    </span>
+                    Санкт-Петербург
+                </a>
+                <a class="header__contact" href="tel:+78008008080">
+                    <span class="header__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none">
+                            <path d="M6 3h3l1.5 4-2 2a14 14 0 0 0 6.5 6.5l2-2L21 15v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4 5.2 2 2 0 0 1 6 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                    +7-800-800-80-80
+                </a>
+                <a class="header__contact" href="mailto:zakaz@proteplo.org">
+                    <span class="header__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none">
+                            <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.6"/>
+                        </svg>
+                    </span>
+                    zakaz@proteplo.org
+                </a>
+            </div>
+
+            <div class="actions">
+                <a class="actions__link" href="#">
+                    <span class="actions__icon" aria-hidden="true">
+                        <img src="../img/header img/header-loupe-search.png" alt="">
+                    </span>
+                    Поиск
+                </a>
+                <a class="actions__link" href="#">
+                    <span class="actions__icon" aria-hidden="true">
+                        <img src="../img/header img/header-basket.png" alt="">
+                    </span>
+                    Корзина
+                </a>
+            </div>
+        </div>
+
+        <div class="container header__bottom">
+            <a class="logo" href="./index.html" aria-label="ProTeplo">
+                <img src="../img/header img/header-logo.png" alt="ПроТепло" width="220" height="44">
+            </a>
+
+            <nav class="menu" aria-label="Главное меню">
+                <a class="menu__link menu__link--catalog" href="./index.html#catalog">Каталог</a>
+                <a class="menu__link" href="#">Подбор онлайн</a>
+                <a class="menu__link" href="#">Доставка</a>
+                <a class="menu__link" href="#">Блог</a>
+                <a class="menu__link" href="#">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <nav class="breadcrumbs" aria-label="Хлебные крошки">
+                <ol class="breadcrumbs__list">
+                    <li class="breadcrumbs__item"><a href="./index.html">Главная</a></li>
+                    <li class="breadcrumbs__item"><a href="./index.html#catalog">Каталог</a></li>
+                    <li class="breadcrumbs__item"><a href="#">Теплообменники</a></li>
+                    <li class="breadcrumbs__item"><a href="#">Пластинчатые теплообменники Ридан</a></li>
+                    <li class="breadcrumbs__item"><span>Теплообменник пластинчатый разборный Ридан НН 19 (Ду 65 мм)</span></li>
+                </ol>
+            </nav>
+
+            <section class="product-hero" aria-labelledby="product-hero-title">
+                <h1 class="product-hero__title" id="product-hero-title">Теплообменник пластинчатый разборный Ридан НН 19 (Ду 65 мм)</h1>
+
+                <div class="product-hero__rating" aria-label="Рейтинг товара 5.0 из 5">
+                    <div class="product-hero__stars" aria-hidden="true">★★★★★</div>
+                    <span class="product-hero__rating-value">5.0</span>
+                    <a class="product-hero__reviews-link" href="#">1 отзыв</a>
+                </div>
+
+                <div class="product-hero__layout">
+                    <div class="product-gallery" aria-label="Изображения товара">
+                        <div class="product-gallery__thumbs" role="tablist" aria-label="Миниатюры товара">
+                            <button class="product-gallery__thumb is-active" type="button" role="tab" aria-selected="true" aria-label="Фото теплообменника">
+                                <img src="../img/cards img/card__img.png" alt="">
+                            </button>
+                            <button class="product-gallery__thumb" type="button" role="tab" aria-selected="false" aria-label="Чертеж теплообменника">
+                                <img src="../img/cards img/card__img.png" alt="">
+                            </button>
+                        </div>
+
+                        <div class="product-gallery__main">
+                            <img src="../img/cards img/card__img.png" alt="Теплообменник пластинчатый разборный Ридан НН 19 (Ду 65 мм)">
+                        </div>
+                    </div>
+
+                    <div class="product-summary">
+                        <ul class="product-summary__benefits">
+                            <li class="product-summary__benefit">
+                                <img src="../img/page-content img/banner/banner-info/acute-banner-info-1.png" alt="">
+                                <span>Расчет и подбор <br>от 15 минут</span>
+                            </li>
+                            <li class="product-summary__benefit">
+                                <img src="../img/page-content img/banner/banner-info/acute-banner-info-2.png" alt="">
+                                <span>Отгрузка <br>от 1 дня</span>
+                            </li>
+                            <li class="product-summary__benefit">
+                                <img src="../img/page-content img/banner/banner-info/acute-banner-info-3.png" alt="">
+                                <span>Бесплатная <br>доставка</span>
+                            </li>
+                        </ul>
+
+                        <dl class="product-summary__specs">
+                            <div class="product-summary__spec-row">
+                                <dt>Срок поставки (от):</dt>
+                                <dd>5 дн.</dd>
+                            </div>
+                            <div class="product-summary__spec-row">
+                                <dt>Гарантия:</dt>
+                                <dd>12 мес.</dd>
+                            </div>
+                            <div class="product-summary__spec-row">
+                                <dt>Срок службы:</dt>
+                                <dd>240 мес.</dd>
+                            </div>
+                            <div class="product-summary__spec-row">
+                                <dt>Страна производитель:</dt>
+                                <dd>Россия</dd>
+                            </div>
+                            <div class="product-summary__spec-row">
+                                <dt>Бренд:</dt>
+                                <dd>Ридан</dd>
+                            </div>
+                        </dl>
+
+                        <div class="product-summary__purchase">
+                            <div class="product-summary__price">67 400 ₽</div>
+                            <div class="product-summary__actions">
+                                <button class="product-summary__btn product-summary__btn--ghost" type="button">Оставить заявку</button>
+                                <button class="product-summary__btn product-summary__btn--primary" type="button">Добавить в корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product-tabs" aria-label="Информация о товаре">
+                <div class="product-tabs__nav" role="tablist" aria-label="Вкладки товара">
+                    <button class="product-tabs__btn is-active" type="button" role="tab" aria-selected="true" aria-controls="description" data-tab="description">Описание</button>
+                    <button class="product-tabs__btn" type="button" role="tab" aria-selected="false" aria-controls="specs" data-tab="specs">Характеристики</button>
+                    <button class="product-tabs__btn" type="button" role="tab" aria-selected="false" aria-controls="sizes" data-tab="sizes">Размеры</button>
+                    <button class="product-tabs__btn" type="button" role="tab" aria-selected="false" aria-controls="reviews" data-tab="reviews">Отзывы</button>
+                </div>
+
+                <div class="product-tabs__content">
+                    <div class="tab-panel is-active" id="description" role="tabpanel">
+                        <p>Пластинчатый разборный теплообменник Ридан НН 19 (DN 65) предназначен для эффективной передачи тепла между двумя средами без их смешения. Модель применяется в системах отопления, горячего водоснабжения и технологических процессах с требованием стабильного температурного режима.</p>
+                        <p>Конструкция аппарата на болтовом стяжении позволяет точно подбирать количество пластин под расчетную нагрузку и при необходимости модернизировать оборудование на объекте. Это снижает затраты на замену аппарата при изменении режима эксплуатации.</p>
+                        <p>Теплообменник устойчив к циклическим нагрузкам и рассчитан на длительную работу в составе индивидуальных тепловых пунктов, котельных и промышленных контуров. Устройство обеспечивает высокую теплоотдачу при компактных габаритах и удобстве обслуживания.</p>
+                        <p>Для подбора оптимальной конфигурации учитываются параметры среды, расход, требуемая тепловая мощность, рабочее давление и допустимый перепад давления по контурам. При корректном расчете аппарат обеспечивает прогнозируемую эффективность в течение всего срока службы.</p>
+                    </div>
+
+                    <div class="tab-panel" id="specs" role="tabpanel">
+                        <div class="product-tabs__table-wrap">
+                            <table class="product-tabs__table" aria-label="Технические характеристики">
+                                <tbody>
+                                    <tr><th>Модель</th><td>Ридан НН 19</td></tr>
+                                    <tr><th>DN</th><td>65 мм</td></tr>
+                                    <tr><th>Рабочее давление</th><td>до 16 бар</td></tr>
+                                    <tr><th>Максимальная температура</th><td>до +180 °C</td></tr>
+                                    <tr><th>Производительность</th><td>до 80 м³/ч</td></tr>
+                                    <tr><th>Материал пластин</th><td>AISI 316</td></tr>
+                                    <tr><th>Материал уплотнений</th><td>NBR / EPDM</td></tr>
+                                    <tr><th>Вес</th><td>240 кг</td></tr>
+                                    <tr><th>Количество пластин</th><td>от 35 до 240</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="tab-panel" id="sizes" role="tabpanel">
+                        <div class="product-tabs__sizes">
+                            <figure class="product-tabs__scheme">
+                                <img src="../img/cards img/card__img.png" alt="Схема габаритов теплообменника Ридан НН 19">
+                                <figcaption>Схема расположения патрубков и габаритов аппарата</figcaption>
+                            </figure>
+                            <div class="product-tabs__table-wrap">
+                                <table class="product-tabs__table" aria-label="Габаритные размеры">
+                                    <thead>
+                                        <tr>
+                                            <th>Параметр</th>
+                                            <th>Значение</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><th>A</th><td>1120 мм</td></tr>
+                                        <tr><th>B</th><td>540 мм</td></tr>
+                                        <tr><th>C</th><td>380 мм</td></tr>
+                                        <tr><th>D</th><td>65 мм</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-panel" id="reviews" role="tabpanel">
+                        <div class="review">
+                            <div class="review__head">
+                                <div class="review__author">Александр Петров, главный инженер</div>
+                                <div class="review__date">12 февраля 2026</div>
+                            </div>
+                            <div class="review__rating" aria-label="Оценка 5 из 5">★★★★★</div>
+                            <div class="review__text">Аппарат работает в контуре отопления и ГВС в ИТП жилого комплекса. Подбор сделали точно, по факту получили стабильную температуру и минимальные потери давления. После пусконаладки вопросов по работе не возникло.</div>
+                        </div>
+                        <div class="review">
+                            <div class="review__head">
+                                <div class="review__author">ООО «ТехСервис», участок эксплуатации</div>
+                                <div class="review__date">28 января 2026</div>
+                            </div>
+                            <div class="review__rating" aria-label="Оценка 5 из 5">★★★★★</div>
+                            <div class="review__text">Используем Ридан НН 19 в технологическом контуре. Аппарат компактный, разборная конструкция удобна для обслуживания, качество пластин и уплотнений на хорошем уровне. Поставка была в заявленные сроки.</div>
+                        </div>
+                        <div class="review">
+                            <div class="review__head">
+                                <div class="review__author">ИП Кузнецов, котельная</div>
+                                <div class="review__date">10 января 2026</div>
+                            </div>
+                            <div class="review__rating" aria-label="Оценка 4 из 5">★★★★☆</div>
+                            <div class="review__text">Для нашей нагрузки подошел с запасом по мощности. Понравилась консультация по подбору и понятная документация. Отдельно отмечу, что аппарат легко встроился в существующую обвязку.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <article class="special-offer banner--card" aria-label="Подбор аналога теплообменника">
+                <img class="special-offer__bg" src="../img/page-content img/banner/banner-info/banner_special-offer.jpg" alt="Подберем аналог теплообменника">
+                <div class="special-offer__content">
+                    <h3 class="special-offer__title">Подберем аналог теплообменника</h3>
+                    <p class="special-offer__subtitle">с сохранением межосевых расстояний</p>
+                    <ul class="special-offer__metrics">
+                        <li class="special-offer__metric">до <strong>40%</strong> дешевле</li>
+                        <li class="special-offer__metric">на <strong>50%</strong> быстрее</li>
+                        <li class="special-offer__metric"><strong>100%</strong> аналог</li>
+                    </ul>
+                    <a class="special-offer__button" href="#">Подробнее</a>
+                </div>
+            </article>
+        </div>
+
+        <section class="related-products" aria-label="С этим товаром покупают">
+            <div class="container">
+                <div class="related-products__header">
+                    <h2 class="related-products__title">С этим товаром покупают</h2>
+                    <div class="related-products__controls">
+                        <button class="related-products__arrow related-products__arrow--prev" type="button" aria-label="Предыдущие товары">
+                            <span aria-hidden="true">‹</span>
+                        </button>
+                        <button class="related-products__arrow related-products__arrow--next" type="button" aria-label="Следующие товары">
+                            <span aria-hidden="true">›</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="related-products__slider">
+                    <div class="related-products__track">
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник Ридан HH 14">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник Ридан HH 14</h3>
+                                <div class="related-card__price">47 500 ₽</div>
+                            </article>
+                        </div>
+
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник Ридан XGF025">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник Ридан XGF025</h3>
+                                <div class="related-card__price">15 900 ₽</div>
+                            </article>
+                        </div>
+
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник Ридан XB37">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник Ридан XB37</h3>
+                                <div class="related-card__price">32 000 ₽</div>
+                            </article>
+                        </div>
+
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник Ридан HH 21">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник Ридан HH 21</h3>
+                                <div class="related-card__price">83 750 ₽</div>
+                            </article>
+                        </div>
+
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник Ридан XB61">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник Ридан XB61</h3>
+                                <div class="related-card__price">49 000 ₽</div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-products related-products--section" aria-label="Похожие товары из раздела">
+            <div class="container">
+                <div class="related-products__header">
+                    <h2 class="related-products__title">Похожие товары из раздела</h2>
+                    <div class="related-products__controls">
+                        <button class="related-products__arrow related-products__arrow--prev" type="button" aria-label="Предыдущие похожие товары">
+                            <span aria-hidden="true">‹</span>
+                        </button>
+                        <button class="related-products__arrow related-products__arrow--next" type="button" aria-label="Следующие похожие товары">
+                            <span aria-hidden="true">›</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="related-products__slider">
+                    <div class="related-products__track">
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник пластинчатый разборный Ридан XGF025">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник пластинчатый разборный Ридан XGF025</h3>
+                                <div class="related-card__price">15 900 ₽</div>
+                            </article>
+                        </div>
+
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник пластинчатый разборный Ридан HH 14">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник пластинчатый разборный Ридан HH 14</h3>
+                                <div class="related-card__price">47 500 ₽</div>
+                            </article>
+                        </div>
+
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник пластинчатый разборный Ридан XB37">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник пластинчатый разборный Ридан XB37</h3>
+                                <div class="related-card__price">32 000 ₽</div>
+                            </article>
+                        </div>
+
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник пластинчатый разборный Ридан HH 21">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник пластинчатый разборный Ридан HH 21</h3>
+                                <div class="related-card__price">83 750 ₽</div>
+                            </article>
+                        </div>
+
+                        <div class="related-products__slide">
+                            <article class="related-card">
+                                <a href="./card.html" class="related-card__image">
+                                    <img src="../img/cards img/card__img.png" alt="Теплообменник пластинчатый разборный Ридан XB61">
+                                </a>
+                                <h3 class="related-card__title">Теплообменник пластинчатый разборный Ридан XB61</h3>
+                                <div class="related-card__price">49 000 ₽</div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <section class="faq" aria-labelledby="faq-title">
+                <div class="faq__layout">
+                    <header class="faq__header">
+                        <h2 class="faq__title" id="faq-title">Ответы на частые вопросы</h2>
+                        <span class="faq__line" aria-hidden="true"></span>
+                    </header>
+
+                    <div class="faq__items">
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                <h4 class="faq__question-title">Как выбрать пластинчатый теплообменник «Ридан» под отопление ГВС?</h4>
+                                <span class="faq__icon" aria-hidden="true"></span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p>Нужны исходные данные: среда и концентрация (вода/гликоль), расход и тепловая нагрузка, температуры на входе/выходе по обоим контурам, допустимые потери давления, требуемая схема подключения. По этим параметрам выполняется расчет площади и числа пластин.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                <h4 class="faq__question-title">Что лучше: разборный или паяный теплообменник?</h4>
+                                <span class="faq__icon" aria-hidden="true"></span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p>Разборные модели удобнее для обслуживания и модернизации. Паяные компактнее и обычно дешевле, но неразборные. Выбор зависит от требований к сервису, среде и режимам эксплуатации.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                <h4 class="faq__question-title">От чего зависит цена теплообменника?</h4>
+                                <span class="faq__icon" aria-hidden="true"></span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p>Стоимость определяется типом аппарата, материалами пластин и уплотнений, рабочими параметрами, запасом по мощности, а также сроками производства и комплектацией поставки.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                <h4 class="faq__question-title">Какие параметры важнее всего для подбора (DN, расход, температура, давление)?</h4>
+                                <span class="faq__icon" aria-hidden="true"></span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p>Ключевые параметры: расход, температурный график, допустимые потери давления и характеристики среды. DN важен для обвязки, но не заменяет полноценный теплотехнический расчет.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                <h4 class="faq__question-title">Можно ли использовать антифриз (гликоль) в пластинчатом теплообменнике?</h4>
+                                <span class="faq__icon" aria-hidden="true"></span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p>Да, при корректном подборе материалов и учете концентрации раствора. Для гликоля важны вязкость, температура и совместимость с уплотнениями.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                <h4 class="faq__question-title">Как часто нужно обслуживать разборный теплообменник?</h4>
+                                <span class="faq__icon" aria-hidden="true"></span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p>Периодичность зависит от качества теплоносителя и режима работы. Обычно проводят плановый осмотр и очистку 1 раз в 6-12 месяцев либо по росту потерь давления.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                <h4 class="faq__question-title">Какой срок изготовления и поставки теплообменников Ридан?</h4>
+                                <span class="faq__icon" aria-hidden="true"></span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p>Сроки зависят от модели и наличия на складе. Типовые позиции доступны быстрее, а заказные исполнения требуют дополнительного времени на производство.</p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="advantages" aria-labelledby="advantages-title">
+                <h2 class="advantages__title" id="advantages-title">Преимущества заказа теплообменников в компании «ПроТепло»</h2>
+                <span class="advantages__line" aria-hidden="true"></span>
+
+                <ul class="advantages__list">
+                    <li class="advantages__item">
+                        <article class="advantage-card">
+                            <span class="advantage-card__icon" aria-hidden="true">
+                                <img src="../img/advantages/advantages__calc.png" alt="">
+                            </span>
+                            <h3 class="advantage-card__text">Правильный расчет и подбор оборудования</h3>
+                        </article>
+                    </li>
+
+                    <li class="advantages__item">
+                        <article class="advantage-card">
+                            <span class="advantage-card__icon" aria-hidden="true">
+                                <img src="../img/advantages/advantages__certificate.png" alt="">
+                            </span>
+                            <h3 class="advantage-card__text">Гарантия на подобранное оборудование до 2-х лет</h3>
+                        </article>
+                    </li>
+
+                    <li class="advantages__item">
+                        <article class="advantage-card">
+                            <span class="advantage-card__icon" aria-hidden="true">
+                                <img src="../img/advantages/advantages__car.png" alt="">
+                            </span>
+                            <h3 class="advantage-card__text">Бесплатная доставка оборудования по РФ</h3>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="selection" aria-labelledby="selection-title">
+            <div class="container">
+                <div class="selection__header">
+                    <h2 class="selection__title" id="selection-title">Подобрать теплообменник по параметрам</h2>
+                    <div class="selection__line" aria-hidden="true"></div>
+                </div>
+
+                <div class="selection__body">
+                    <div class="selection__left">
+                        <img class="selection__image selection__image--main" src="../img/cards img/card__img.png" alt="Теплообменник">
+                        <img class="selection__image selection__image--example" src="../img/cards img/card__img.png" alt="Пример расчета теплообменника">
+                        <p class="selection__caption">Пример расчета, который будет отправлен вам на e-mail</p>
+                    </div>
+
+                    <div class="selection__right">
+                        <form class="selection-form" action="#" method="post">
+                            <h3 class="selection-form__title">Греющий контур</h3>
+                            <div class="selection-form__grid">
+                                <div class="field field--row">
+                                    <label class="field__label" for="hot-medium">Среда</label>
+                                    <input class="field__input" id="hot-medium" name="hot-medium" type="text" placeholder="Вода">
+                                </div>
+
+                                <div class="field field--row">
+                                    <label class="field__label" for="hot-flow">Расход</label>
+                                    <div class="field__dropdown" data-field-dropdown>
+                                        <div class="field__input-group">
+                                            <input class="field__input" id="hot-flow" name="hot-flow" type="text" placeholder="0">
+                                            <button class="field__unit-toggle" type="button" data-field-toggle>м³/ч</button>
+                                        </div>
+                                        <ul class="field__unit-list">
+                                            <li><button type="button" data-value="м³/ч">м³/ч</button></li>
+                                            <li><button type="button" data-value="л/с">л/с</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="field__label" for="hot-temp-in">t на входе</label>
+                                    <div class="field__input-group">
+                                        <input class="field__input" id="hot-temp-in" name="hot-temp-in" type="text" placeholder="0">
+                                        <span class="field__unit-static">°C</span>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="field__label" for="hot-temp-out">t на выходе</label>
+                                    <div class="field__input-group">
+                                        <input class="field__input" id="hot-temp-out" name="hot-temp-out" type="text" placeholder="0">
+                                        <span class="field__unit-static">°C</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <form class="selection-form" action="#" method="post">
+                            <h3 class="selection-form__title">Нагреваемый контур</h3>
+                            <div class="selection-form__grid">
+                                <div class="field field--row">
+                                    <label class="field__label" for="cold-medium">Среда</label>
+                                    <input class="field__input" id="cold-medium" name="cold-medium" type="text" placeholder="Вода">
+                                </div>
+
+                                <div class="field field--row">
+                                    <label class="field__label" for="cold-flow">Расход</label>
+                                    <div class="field__dropdown" data-field-dropdown>
+                                        <div class="field__input-group">
+                                            <input class="field__input" id="cold-flow" name="cold-flow" type="text" placeholder="0">
+                                            <button class="field__unit-toggle" type="button" data-field-toggle>м³/ч</button>
+                                        </div>
+                                        <ul class="field__unit-list">
+                                            <li><button type="button" data-value="м³/ч">м³/ч</button></li>
+                                            <li><button type="button" data-value="л/с">л/с</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="field__label" for="cold-temp-in">t на входе</label>
+                                    <div class="field__input-group">
+                                        <input class="field__input" id="cold-temp-in" name="cold-temp-in" type="text" placeholder="0">
+                                        <span class="field__unit-static">°C</span>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="field__label" for="cold-temp-out">t на выходе</label>
+                                    <div class="field__input-group">
+                                        <input class="field__input" id="cold-temp-out" name="cold-temp-out" type="text" placeholder="0">
+                                        <span class="field__unit-static">°C</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <form class="selection-load" action="#" method="post">
+                            <h3 class="selection-load__title">Тепловая нагрузка</h3>
+                            <div class="field__dropdown" data-field-dropdown>
+                                <div class="field__input-group">
+                                    <input class="field__input" id="heat-load" name="heat-load" type="text" placeholder="0">
+                                    <button class="field__unit-toggle" type="button" data-field-toggle>Гкал/ч</button>
+                                </div>
+                                <ul class="field__unit-list">
+                                    <li><button type="button" data-value="Гкал/ч">Гкал/ч</button></li>
+                                    <li><button type="button" data-value="кВт">кВт</button></li>
+                                    <li><button type="button" data-value="МВт">МВт</button></li>
+                                </ul>
+                            </div>
+                        </form>
+
+                        <form class="selection-contact" action="#" method="post">
+                            <div class="selection-contact__fields">
+                                <div class="field">
+                                    <input class="field__input" id="selection-name" name="name" type="text" placeholder="Имя">
+                                </div>
+
+                                <div class="field">
+                                    <input class="field__input" id="selection-phone" name="phone" type="tel" placeholder="Телефон">
+                                </div>
+
+                                <div class="field">
+                                    <input class="field__input" id="selection-email" name="email" type="email" placeholder="E-mail">
+                                </div>
+
+                                <div class="field field--comment">
+                                    <textarea class="field__textarea" id="selection-comment" name="comment" rows="6" placeholder="Комментарий"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="selection-contact__bottom">
+                                <div class="selection-contact__submit-wrap">
+                                    <button class="selection-contact__submit" type="submit">Отправить</button>
+                                    <p class="selection-contact__consent">
+                                        Нажимая на кнопку, я соглашаюсь на обработку моих
+                                        <a href="#">персональных данных</a>
+                                    </p>
+                                </div>
+
+                                <label class="selection-contact__attach">
+                                    <input type="file" name="files" multiple>
+                                    <span class="selection-contact__attach-link">Прикрепить файлы</span>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>
